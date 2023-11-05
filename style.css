@@ -5,6 +5,10 @@
 body {
     background-color: #1d1d20;
     color: #d1d1d1;
+    padding: 20px;
+}
+.main {
+    padding: 20px;
 }
 .main-container {
     padding: 20px;
@@ -15,16 +19,32 @@ body {
 header{
 
 }
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img {
+    width: 50px;
+}
 .links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     list-style-type: none;
 }
+.links a {
+    color: darkkhaki;
+}
 main {
     min-height: 450px;
     min-width: 800px;
     padding: 20px;
+}
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .issues {
     display: flex;
