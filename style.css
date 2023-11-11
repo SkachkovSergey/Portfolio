@@ -36,6 +36,9 @@ img {
 .links a {
     color: darkkhaki;
 }
+.item:hover {
+    transform: scale(1.2);
+}
 main {
     min-height: 450px;
     min-width: 800px;
@@ -45,6 +48,16 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+#Portfolio {
+    min-width: auto;
+    min-height: auto;
+    font-family: Calibri, sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px white, -2px -2px 5px white;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: blue;
 }
 .issues {
     display: flex;
