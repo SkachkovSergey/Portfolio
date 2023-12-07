@@ -40,7 +40,7 @@ img {
     transform: scale(1.2);
 }
 main {
-    min-height: 450px;
+    min-height: 400px;
     min-width: 800px;
     padding: 20px;
 }
