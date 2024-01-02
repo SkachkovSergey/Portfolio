@@ -7,6 +7,14 @@ body{
     color: #1d1d20;
     padding: 20px;
 }
+a {
+    text-decoration: none;
+    margin: 10px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
 img {
     float: right;
 }
